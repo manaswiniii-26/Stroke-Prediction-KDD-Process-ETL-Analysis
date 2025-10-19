@@ -35,6 +35,27 @@ KDD Steps:
 
 Data cleaning → Integration → Transformation → Visualization → Knowledge Extraction → Evaluation.
 
+🏗️ Data Mart Design (Star Schema)
+
+The project’s final structure is modeled as a Star Schema, supporting efficient analytical querying and data exploration.
+This schema separates measurable events (facts) from descriptive attributes (dimensions), aligning with industry-standard data warehousing practices.
+
+🧩 Schema Overview
+
+Fact Table: Fact_Stroke_Prediction
+
+Contains stroke-related facts and foreign keys linking to dimension tables.
+
+Dimension Tables:
+
+Dim_Demographic — captures patient demographics.
+
+Dim_Medical_Lab — includes medical indicators like glucose and cholesterol.
+
+Dim_Cardiac — stores cardiovascular attributes such as blood pressure and heart rate.
+
+Dim_Lifestyle — details lifestyle factors including work type and smoking status.
+
 📊 Visual Analysis
 
 Comparative visualizations across age groups, BMI, glucose levels, and heart conditions.
